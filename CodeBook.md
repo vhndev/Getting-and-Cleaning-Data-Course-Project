@@ -1,5 +1,12 @@
 #Getting and Cleaning Data Course Project Code Book
 
+## Variables in the tidy data
+$ subject           : (int) the number represented for the subject who was tested. 
+$ activity          : Factor w/ 6 levels ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+$ feature           : (chr) name of features
+$ feature.value.mean: (num) mean value of each combination of subject, acitivity and feature.
+
+## Explain some variables using in the run_analysis.R file.
 "xTestTbl"          : list of measurements for test set
 "yTestTbl"          : list of activities for test set
 "subjTestTbl"       : subjects list for test set, read from subject_test.txt 
