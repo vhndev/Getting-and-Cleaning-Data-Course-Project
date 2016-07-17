@@ -1,4 +1,5 @@
 #Getting and Cleaning Data Course Project Readme
+This is the sulution for the course project of Getting and Cleaning Data on Coursera
 
 1. Use data.table package to read and manipulate data, because it is faster and more convenient than data.frame
 2. Use fread to read data from text files.
